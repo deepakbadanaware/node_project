@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello cliff.ai ! this is sample node application ')
+  response.send('Hello cliff.ai ! this is sample node application trying ')
 }) 
 
 app.listen(app.get('port'), function() {
